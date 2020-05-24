@@ -381,7 +381,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Quit
+  m_Text: START
 --- !u!222 &403685644
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 734727361}
   - component: {fileID: 734727360}
   m_Layer: 5
-  m_Name: Thanks
+  m_Name: WelcomeTo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -459,7 +459,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Thanks for playing
+  m_Text: Welcome to
 --- !u!222 &734727361
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -481,7 +481,7 @@ GameObject:
   - component: {fileID: 1072298786}
   - component: {fileID: 1072298785}
   m_Layer: 5
-  m_Name: Credits
+  m_Name: Welcome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -500,7 +500,6 @@ RectTransform:
   m_Children:
   - {fileID: 734727359}
   - {fileID: 1099845285}
-  - {fileID: 1553137346}
   - {fileID: 1485013921}
   m_Father: {fileID: 67220314}
   m_RootOrder: 0
@@ -519,7 +518,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1072298783}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a691ea752de88c64198c3106e9df3890, type: 3}
+  m_Script: {fileID: 11500000, guid: 440807ff8a2caae40a3ee64e6bfcfb79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1072298786
@@ -571,7 +570,7 @@ GameObject:
   - component: {fileID: 1099845287}
   - component: {fileID: 1099845286}
   m_Layer: 5
-  m_Name: MadeBy
+  m_Name: Cluibdel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -593,7 +592,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000042869, y: 0.000015259}
+  m_AnchoredPosition: {x: -0.000042869, y: 99.773926}
   m_SizeDelta: {x: 349.66364, y: 199.54782}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1099845286
@@ -617,18 +616,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c1af26ec78fea0a44a792a1c34a8f986, type: 3}
-    m_FontSize: 25
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Made by
+  m_Text: CLUIBDEL
 --- !u!222 &1099845287
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -670,11 +669,11 @@ RectTransform:
   m_Children:
   - {fileID: 403685642}
   m_Father: {fileID: 1072298784}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000038147, y: -187.33}
+  m_AnchoredPosition: {x: -0.0000090826, y: -209}
   m_SizeDelta: {x: 90.2103, y: 60.108772}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1485013922
@@ -736,7 +735,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1072298785}
-        m_MethodName: Quit
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -782,84 +781,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485013920}
-  m_CullTransparentMesh: 0
---- !u!1 &1553137345
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1553137346}
-  - component: {fileID: 1553137348}
-  - component: {fileID: 1553137347}
-  m_Layer: 5
-  m_Name: Siwy
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1553137346
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553137345}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1072298784}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.30833337}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000013805, y: 0}
-  m_SizeDelta: {x: 349.66364, y: 84.54782}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1553137347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553137345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: c1af26ec78fea0a44a792a1c34a8f986, type: 3}
-    m_FontSize: 40
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Siwy
---- !u!222 &1553137348
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553137345}
   m_CullTransparentMesh: 0
 --- !u!1 &1801114118
 GameObject:
